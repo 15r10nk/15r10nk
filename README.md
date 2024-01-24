@@ -31,7 +31,18 @@ These refactoring can then be applied by some one else in some other project whi
 ## Sponsors ❤️
 
 [Sponsoring](https://github.com/sponsors/15r10nk) allows me to invest more time in my open source projects.
-I have no special insider features at the moment, but I plan to add some to my projects in the future.
+I have currently one insider project which I want to release when I reach 10 sponsors.
+
+### [canonical-imports](https://github.com/15r10nk/canonical-imports)
+Managing imports is difficult when the project grows in size.
+Functions and classes gets moved or renamed.
+`canonical-imports` follows your imports and finds out where the things you are importing are actually defined. It can change your imports which makes your code cleaner and maybe even faster.
+
+## Stars
+
+I'm collecting stars ✨, and your support by starring my projects would be awesome 🤩
+
+[![Star History Chart](https://api.star-history.com/svg?repos=15r10nk/inline-snapshot,15r10nk/pysource-codegen,15r10nk/pysource-minimize,15r10nk/codecrumbs,15r10nk/first-shell&type=Date)](https://star-history.com/#15r10nk/inline-snapshot&15r10nk/pysource-codegen&15r10nk/pysource-minimize&15r10nk/codecrumbs&15r10nk/first-shell&Date)
 
 <!--
 **15r10nk/15r10nk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
