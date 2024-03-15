@@ -28,6 +28,11 @@ Codecrumbs can be used to refactor code across space 🚀 and time ⏰.
 The idea is to annotate your python code with decorators which describe deprecations.
 These refactoring can then be applied by some one else in some other project which uses your library.
 
+### [lazy-imports-lite](https://github.com/15r10nk/lazy-imports-lite) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/lazy-imports-lite?style=flat)
+
+lazy-imports-lite allows you to use [PEP 690](https://peps.python.org/pep-0690/) like lazy-imports enabled per package/library.
+The implementation is based on AST rewriting and can be used for python 3.8+.
+
 ## Sponsors ❤️
 
 [Sponsoring](https://github.com/sponsors/15r10nk) allows me to invest more time in my open source projects.
@@ -42,7 +47,7 @@ Functions and classes gets moved or renamed.
 
 I'm collecting stars ✨, and your support by starring my projects would be awesome 🤩
 
-[![Star History Chart](https://api.star-history.com/svg?repos=15r10nk/inline-snapshot,15r10nk/pysource-codegen,15r10nk/pysource-minimize,15r10nk/codecrumbs,15r10nk/first-shell&type=Date)](https://star-history.com/#15r10nk/inline-snapshot&15r10nk/pysource-codegen&15r10nk/pysource-minimize&15r10nk/codecrumbs&15r10nk/first-shell&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=15r10nk/inline-snapshot,15r10nk/pysource-codegen,15r10nk/pysource-minimize,15r10nk/codecrumbs,15r10nk/first-shell,15r10nk/lazy-imports-lite&type=Date)](https://star-history.com/#15r10nk/inline-snapshot&15r10nk/pysource-codegen&15r10nk/pysource-minimize&15r10nk/codecrumbs&15r10nk/first-shell&15r10nk/lazy-imports-lite&Date)
 
 <!--
 **15r10nk/15r10nk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
