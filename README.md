@@ -36,17 +36,31 @@ The implementation is based on AST rewriting and can be used for python 3.8+.
 ## Sponsors ❤️
 
 [Sponsoring](https://github.com/sponsors/15r10nk) allows me to invest more time in my open source projects.
-I have currently one insider project which I want to release when I reach 10 sponsors.
 
-### [canonical-imports](https://github.com/15r10nk/canonical-imports) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/canonical-imports?style=social)
+### Goal *10 Sponsors*
+
+#### [canonical-imports](https://github.com/15r10nk/canonical-imports) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/canonical-imports?style=social)
 
 Managing imports is difficult when the project grows in size.
 Functions and classes gets moved or renamed.
 `canonical-imports` follows your imports and finds out where the things you are importing are actually defined. It can change your imports which makes your code cleaner and maybe even faster.
 
+### Goal *200$*
+
+#### [inline-snapshot-pandas](https://github.com/15r10nk/inline-snapshot-pandas) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/inline-snapshot-pandas?style=social)
+
+[pandas](https://pandas.pydata.org) integration for [inline-snapshot](https://github.com/15r10nk/inline-snapshot).
+
+``` python
+def test_assert_equal():
+    df = DataFrame({"col0": [1, 2]})
+
+    assert_frame_equal(df, snapshot(DataFrame([{"col0": 1}, {"col0": 2}])))
+```
+
 ## Stars
 
-I'm collecting stars ✨, and your support by starring my projects would be awesome 🤩
+I'm also collecting stars ✨, and your support by starring my projects would be awesome 🤩
 
 [![Star History Chart](https://api.star-history.com/svg?repos=15r10nk/inline-snapshot,15r10nk/pysource-codegen,15r10nk/pysource-minimize,15r10nk/codecrumbs,15r10nk/first-shell,15r10nk/lazy-imports-lite&type=Date)](https://star-history.com/#15r10nk/inline-snapshot&15r10nk/pysource-codegen&15r10nk/pysource-minimize&15r10nk/codecrumbs&15r10nk/first-shell&15r10nk/lazy-imports-lite&Date)
 
