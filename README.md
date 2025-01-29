@@ -4,7 +4,7 @@ I'm a software developer. My goal with my opensource work is to help other peopl
 
 My main projects are:
 
-### [inline-snapshot](https://github.com/15r10nk/inline-snapshot) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/inline-snapshot?style=social)
+### [inline-snapshot](https://github.com/15r10nk/inline-snapshot) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/inline-snapshot?style=social) [![PyPI - Downloads](https://img.shields.io/pypi/dw/inline-snapshot)](https://pypacktrends.com/?packages=inline-snapshot&time_range=2years)
 
 Allows you to write
 ```python
@@ -13,22 +13,26 @@ def test_addition()
 ```
 and to change the snapshot to  `snapshot(10)` when you run `pytest --inline-snapshot=create`
 
-### [pysource-minimize](https://github.com/15r10nk/pysource-minimize) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/pysource-minimize?style=social)
+### [pysource-minimize](https://github.com/15r10nk/pysource-minimize) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/pysource-minimize?style=social) [![PyPI - Downloads](https://img.shields.io/pypi/dw/pysource-minimize)](https://pypacktrends.com/?packages=pysource-minimize&time_range=2years)
+
 
 Helps you to find bugs by minimizing python source files to the minimal amount of code which is necessary to reproduce the bug
 
 
-### [pysource-codegen](https://github.com/15r10nk/pysource-codegen) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/pysource-codegen?style=social)
+### [pysource-codegen](https://github.com/15r10nk/pysource-codegen) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/pysource-codegen?style=social) [![PyPI - Downloads](https://img.shields.io/pypi/dw/pysource-codegen)](https://pypacktrends.com/?packages=pysource-codegen&time_range=2years)
+
 
 Generates random python code, which is useful to test linter, formatter or other tools which work with python code.
 
-### [codecrumbs](https://github.com/15r10nk/codecrumbs) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/codecrumbs?style=social)
+### [codecrumbs](https://github.com/15r10nk/codecrumbs) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/codecrumbs?style=social) [![PyPI - Downloads](https://img.shields.io/pypi/dw/codecrumbs)](https://pypacktrends.com/?packages=codecrumbs&time_range=2years)
+
 
 Codecrumbs can be used to refactor code across space 🚀 and time ⏰.
 The idea is to annotate your python code with decorators which describe deprecations.
 These refactoring can then be applied by some one else in some other project which uses your library.
 
-### [lazy-imports-lite](https://github.com/15r10nk/lazy-imports-lite) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/lazy-imports-lite?style=social)
+### [lazy-imports-lite](https://github.com/15r10nk/lazy-imports-lite) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/lazy-imports-lite?style=social) [![PyPI - Downloads](https://img.shields.io/pypi/dw/lazy-imports-lite)](https://pypacktrends.com/?packages=lazy-imports-lite&time_range=2years)
+
 
 lazy-imports-lite allows you to use [PEP 690](https://peps.python.org/pep-0690/) like lazy-imports enabled per package/library.
 The implementation is based on AST rewriting and can be used for python 3.8+.
