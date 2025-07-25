@@ -39,6 +39,14 @@ The implementation is based on AST rewriting and can be used for python 3.8+.
 
 ## Sponsors ❤️
 
+### Bronze sponsor 🥉
+
+<p align="center">
+  <a href="https://pydantic.dev/logfire">
+    <img src="https://pydantic.dev/assets/for-external/pydantic_logfire_logo_endorsed_lithium_rgb.svg" alt="pydantic logfire" width="300"/>
+  </a>
+</p>
+
 [Sponsoring](https://github.com/sponsors/15r10nk) allows me to invest more time in my open source projects.
 
 ### Goal *10 Sponsors*
@@ -48,8 +56,6 @@ The implementation is based on AST rewriting and can be used for python 3.8+.
 Managing imports is difficult when the project grows in size.
 Functions and classes gets moved or renamed.
 `canonical-imports` follows your imports and finds out where the things you are importing are actually defined. It can change your imports which makes your code cleaner and maybe even faster.
-
-### Goal *200$*
 
 #### [inline-snapshot-pandas](https://github.com/15r10nk/inline-snapshot-pandas) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/inline-snapshot-pandas?style=flat)
 
