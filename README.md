@@ -37,36 +37,52 @@ These refactoring can then be applied by some one else in some other project whi
 lazy-imports-lite allows you to use [PEP 690](https://peps.python.org/pep-0690/) like lazy-imports enabled per package/library.
 The implementation is based on AST rewriting and can be used for python 3.8+.
 
-## Sponsors ❤️
+<!--[[[cog
+import requests,cog
 
-### Bronze sponsor 🥉
+url = "https://raw.githubusercontent.com/15r10nk/sponsors/refs/heads/main/sponsors_readme.md"
+response = requests.get(url)
+response.raise_for_status()  # Raise an exception for bad status codes
+cog.out(response.text)
+]]]-->
+## Sponsors
+
+I would like to thank my sponsors. Without them, I would not be able to invest so much time in my projects.
+
+### Silver sponsor 🥈
 
 <p align="center">
   <a href="https://pydantic.dev/logfire">
-    <img src="https://pydantic.dev/assets/for-external/pydantic_logfire_logo_endorsed_lithium_rgb.svg" alt="pydantic logfire" width="300"/>
+    <img src="https://pydantic.dev/assets/for-external/pydantic_logfire_logo_endorsed_lithium_rgb.svg" alt="logfire" width="300"/>
   </a>
 </p>
+<!--[[[end]]]-->
 
 [Sponsoring](https://github.com/sponsors/15r10nk) allows me to invest more time in my open source projects.
 
-### Goal *10 Sponsors*
+### Goal *10 Sponsors* (reached :tada:)
 
-#### [canonical-imports](https://github.com/15r10nk/canonical-imports) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/canonical-imports?style=flat)
+*   [canonical-imports](https://github.com/15r10nk/canonical-imports) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/canonical-imports?style=flat)
 
-Managing imports is difficult when the project grows in size.
-Functions and classes gets moved or renamed.
-`canonical-imports` follows your imports and finds out where the things you are importing are actually defined. It can change your imports which makes your code cleaner and maybe even faster.
+    Managing imports is difficult when the project grows in size.
+    Functions and classes gets moved or renamed.
+    `canonical-imports` follows your imports and finds out where the things you are importing are actually defined. It can change your imports which makes your code cleaner and maybe even faster.
 
-#### [inline-snapshot-pandas](https://github.com/15r10nk/inline-snapshot-pandas) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/inline-snapshot-pandas?style=flat)
+*   [inline-snapshot-pandas](https://github.com/15r10nk/inline-snapshot-pandas) ![GitHub Repo stars](https://img.shields.io/github/stars/15r10nk/inline-snapshot-pandas?style=flat)
 
-[pandas](https://pandas.pydata.org) integration for [inline-snapshot](https://github.com/15r10nk/inline-snapshot).
+    [pandas](https://pandas.pydata.org) integration for [inline-snapshot](https://github.com/15r10nk/inline-snapshot).
 
-``` python
-def test_assert_equal():
-    df = DataFrame({"col0": [1, 2]})
+    ``` python
+    def test_assert_equal():
+        df = DataFrame({"col0": [1, 2]})
 
-    assert_frame_equal(df, snapshot(DataFrame([{"col0": 1}, {"col0": 2}])))
-```
+        assert_frame_equal(df, snapshot(DataFrame([{"col0": 1}, {"col0": 2}])))
+    ```
+
+### Next goal *20 sponsors*
+* release ["The ability to create and fix assertions without snapshot()"](https://15r10nk.github.io/inline-snapshot/latest/insiders/#the-ability-to-create-and-fix-assertions-without-snapshot) for everyone.
+* reduce the sponsor amount which is needed to become to get access to my sponsor only features from 10$ to 9$.
+
 
 ## Stars
 
